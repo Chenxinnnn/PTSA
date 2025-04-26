@@ -8,6 +8,21 @@ This project aims to evaluate and compare various anomaly detection algorithms f
 
 ---
 
+## 📁 Repository Structure
+
+```plaintext
+PTSA/
+├── ad_anomaly/
+│   ├── NAB-master/                 # Cloned & modified NAB benchmark
+│   │   ├── data/realAdExchange/   # Dataset used: CPC, CPM with anomaly labels
+│   │   ├── results/               # Model outputs and NAB scores
+│   │   ├── scripts/               # Utility and visualization scripts
+│   │   └── README.md              # NAB’s original description
+│   ├── PTSA_Final_Project.ipynb   # Final notebook comparing models
+│   └── PTSA_Proposal.pdf          # Original project proposal
+└── README.md                      # This file (project overview)
+```
+
 ## 📂 Dataset
 
 We use the **realAdExchange** dataset from the [Numenta Anomaly Benchmark (NAB)](https://github.com/numenta/NAB), which contains time series data of ad performance over time.  
